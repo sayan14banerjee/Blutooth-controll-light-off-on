@@ -33,15 +33,22 @@ The text of the Arduino getting started guide is licensed under a Creative Commo
 # Run the code and upload it to arduino
  first run the code in ide. Before upload it please check the port. Neither it will give some error. Dont exact copy the code, it occurs somr error because during copy some letter may add with the code.
  
- #set the circuit as show as diagram
+# set the circuit as show as diagram
  connect the ports as following
 blutooth hc-05  TO  arduino
+
 VCC                 VIN
+
 GND                 GND
+
 TX                  RX
+
 RX                  TX
 
 relay    to      arduino
+
 1,2,3....        A1,A2,A3.....
+
 GND              GND
+
 VCC              5V
